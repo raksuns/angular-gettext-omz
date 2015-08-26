@@ -1,6 +1,6 @@
 {
-  "name": "angular-gettext",
-  "version": "2.1.0",
+  "name": "angular-gettext-omz",
+  "version": "0.0.1",
   "description": "Gettext support for Angular.js",
   "main": "dist/angular-gettext.js",
   "directories": {
@@ -42,7 +42,11 @@
     "karma-phantomjs-launcher": "^0.1.4"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/rubenv/angular-gettext.git"
-  }
+    "type": "https",
+    "url": "https://github.com/raksuns/angular-gettext-omz.git"
+},
+"modifier" : {
+    "name" : "raksuns",
+    "email" : "raksuns@gmail.com"
+}
 }

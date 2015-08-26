@@ -1,6 +1,6 @@
 {
-  "name": "angular-gettext",
-  "version": "2.1.0",
+  "name": "angular-gettext-omz",
+  "version": "0.0.1",
   "main": "dist/angular-gettext.js",
   "ignore": [
     "**/.*",

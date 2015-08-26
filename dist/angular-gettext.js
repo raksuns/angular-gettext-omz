@@ -10,7 +10,7 @@ angular.module('gettext').constant('gettext', function (str) {
     return str;
 });
 
-angular.module('gettext').factory('gettextCatalog', ["gettextPlurals", "$http", "$cacheFactory", "$interpolate", "$rootScope", function (gettextPlurals, $http, $cacheFactory, $interpolate, $rootScope) {
+angular.module('gettext').factory('gettextCatalog', ["gettextPlurals", "$cacheFactory", "$interpolate", "$rootScope", function (gettextPlurals, $cacheFactory, $interpolate, $rootScope) {
     var catalog;
     var noContext = '$$noContext';
 
